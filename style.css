@@ -1,0 +1,12 @@
+.display-2{
+    text-align: center;
+    padding-bottom: 5%;
+}
+
+#stock-input, #addStockButton{
+    margin-bottom: 10px;
+}
+
+.newStockBtns{
+    margin: 0 5px 5px 0;
+}

@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Stock symbol homework</title>
+    <link rel="stylesheet" type="text/css" href="reset.css">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <script src="http://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div id="container" class="container-fluid">
+        <h1 class="display-2">Stock homework search</h1>
+
+
+        <div class="row container-fluid">
+            <div class="col-3">
+                <div id="stock-head">
+                    <input type="text" id="stock-input" class ="input-group-text" placeholder="Input a stock symbol">
+                    <button id="addStockButton" class="btn btn-dark">Click here to add stock</button>
+                    <div id="stock-buttons"></div>
+                </div>
+            </div>
+            <div class="col-3" id='stock-main'></div>
+            <div class="col-6" id='stock-info'></div>
+        </div>
+
+    </div>
+
+    <script src="./app.js"></script>
+    
+</body>
+
+</html>
